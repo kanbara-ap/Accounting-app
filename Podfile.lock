@@ -1,0 +1,44 @@
+PODS:
+  - Charts (4.0.2):
+    - Charts/Core (= 4.0.2)
+  - Charts/Core (4.0.2):
+    - SwiftAlgorithms (~> 1.0)
+  - FSCalendar (2.8.4)
+  - Realm (10.20.0):
+    - Realm/Headers (= 10.20.0)
+  - Realm/Headers (10.20.0)
+  - RealmSwift (10.20.0):
+    - Realm (= 10.20.0)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Charts
+  - FSCalendar (from `https://github.com/WenchaoD/FSCalendar`)
+  - RealmSwift (= 10.20.0)
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - Realm
+    - RealmSwift
+    - SwiftAlgorithms
+
+EXTERNAL SOURCES:
+  FSCalendar:
+    :git: https://github.com/WenchaoD/FSCalendar
+
+CHECKOUT OPTIONS:
+  FSCalendar:
+    :commit: 0fbdec5172fccb90f707472eeaea4ffe095278f6
+    :git: https://github.com/WenchaoD/FSCalendar
+
+SPEC CHECKSUMS:
+  Charts: cfa4e911e6dc289582c2fe011a0e87c03d96727f
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  Realm: ae32bdc1da7d19c7617e0400201a77acd4a211b9
+  RealmSwift: c95eec6a712924870b2e36c4c081d63ec07e5414
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: 4f3182798ddf4829994bb437bc24f180e885b8e8
+
+COCOAPODS: 1.11.3

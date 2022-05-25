@@ -15,16 +15,19 @@ class CalendarViewController: UIViewController, FSCalendarDelegate, UITableViewD
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as?  spendTableViewCell else {
+            fatalError("Dequeue failed: AnimalTableViewCell.")
+        }
         let account = accountArray[indexPath.row]
-        cell.textLabel?.text = account.title + " " + account.category
-        cell.detailTextLabel?.text = ":" + String(account.spend)
+        cell.cellTitle.text = account.title + " (" + account.category + ")"
+        cell.spend.text = String(account.spend)
         return cell
     }
     
     let realm = try! Realm()
     
     var accountArray = try! Realm().objects(Account.self).sorted(byKeyPath: "date", ascending: true)
+
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var calendar: FSCalendar!

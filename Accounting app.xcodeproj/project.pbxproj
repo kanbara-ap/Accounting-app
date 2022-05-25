@@ -15,10 +15,11 @@
 		D9EAEDCF28360BA6004879FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EAEDCD28360BA6004879FB /* LaunchScreen.storyboard */; };
 		D9EAEDD728361328004879FB /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAEDD628361328004879FB /* RecordViewController.swift */; };
 		D9EAEDD928361374004879FB /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAEDD828361374004879FB /* CalendarViewController.swift */; };
-		D9EAEDDB283613F2004879FB /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAEDDA283613F2004879FB /* GraphViewController.swift */; };
 		D9EAEDE128362221004879FB /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAEDE028362221004879FB /* Account.swift */; };
 		D9EAEDE3283738C7004879FB /* ExtensionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAEDE2283738C7004879FB /* ExtensionTextField.swift */; };
 		D9EAEDE5283B6ED5004879FB /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAEDE4283B6ED5004879FB /* ChartViewController.swift */; };
+		D9EAEDE7283DC634004879FB /* spendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAEDE6283DC633004879FB /* spendTableViewCell.swift */; };
+		D9EAEDE9283DCA06004879FB /* categoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAEDE8283DCA06004879FB /* categoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +35,11 @@
 		D9EAEDD028360BA6004879FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9EAEDD628361328004879FB /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		D9EAEDD828361374004879FB /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		D9EAEDDA283613F2004879FB /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		D9EAEDE028362221004879FB /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		D9EAEDE2283738C7004879FB /* ExtensionTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTextField.swift; sourceTree = "<group>"; };
 		D9EAEDE4283B6ED5004879FB /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		D9EAEDE6283DC633004879FB /* spendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spendTableViewCell.swift; sourceTree = "<group>"; };
+		D9EAEDE8283DCA06004879FB /* categoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +90,9 @@
 				D9EAEDD628361328004879FB /* RecordViewController.swift */,
 				D9EAEDD828361374004879FB /* CalendarViewController.swift */,
 				D9EAEDE2283738C7004879FB /* ExtensionTextField.swift */,
-				D9EAEDDA283613F2004879FB /* GraphViewController.swift */,
 				D9EAEDE4283B6ED5004879FB /* ChartViewController.swift */,
+				D9EAEDE6283DC633004879FB /* spendTableViewCell.swift */,
+				D9EAEDE8283DCA06004879FB /* categoryTableViewCell.swift */,
 				D9EAEDC828360BA4004879FB /* Main.storyboard */,
 				D9EAEDCB28360BA6004879FB /* Assets.xcassets */,
 				D9EAEDCD28360BA6004879FB /* LaunchScreen.storyboard */,
@@ -221,10 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EAEDE7283DC634004879FB /* spendTableViewCell.swift in Sources */,
 				D9EAEDD928361374004879FB /* CalendarViewController.swift in Sources */,
+				D9EAEDE9283DCA06004879FB /* categoryTableViewCell.swift in Sources */,
 				D9EAEDE3283738C7004879FB /* ExtensionTextField.swift in Sources */,
 				D9EAEDC328360BA4004879FB /* AppDelegate.swift in Sources */,
-				D9EAEDDB283613F2004879FB /* GraphViewController.swift in Sources */,
 				D9EAEDC528360BA4004879FB /* SceneDelegate.swift in Sources */,
 				D9EAEDE5283B6ED5004879FB /* ChartViewController.swift in Sources */,
 				D9EAEDD728361328004879FB /* RecordViewController.swift in Sources */,
